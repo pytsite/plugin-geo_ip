@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.1.1 (2017-12-07)
+
+Fixed init code.
+
+
 ### 1.1 (2017-12-02)
 
 Removed dependency from `odm`.

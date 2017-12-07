@@ -1,8 +1,11 @@
 """PytSite Geo IP
 """
+from pytsite import plugman as _plugman
+
 # Public API
-from . import _error as error
-from ._api import resolve
+if _plugman.is_installed(__name__):
+    from . import _error as error
+    from ._api import resolve
 
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
