@@ -1,6 +1,6 @@
 {
   "name": "geo_ip",
-  "version": "1.1.1",
+  "version": "1.2",
   "description": {
     "en": "GeoIP",
     "ru": "GeoIP",
