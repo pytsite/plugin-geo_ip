@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.0 (2017-12-23)
+
+Object oriented data model introduced.
+
+
 ### 1.2 (2017-12-13)
 
 Support for PytSite-7.0.

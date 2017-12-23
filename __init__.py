@@ -10,3 +10,4 @@ from pytsite import plugman as _plugman
 if _plugman.is_installed(__name__):
     from . import _error as error
     from ._api import resolve
+    from ._model import GeoIP
