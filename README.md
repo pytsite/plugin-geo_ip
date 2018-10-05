@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.0.1 (2018-10-05)
+
+Cleanup.
+
+
 ### 2.0 (2017-12-23)
 
 Object oriented data model introduced.

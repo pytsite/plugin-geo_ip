@@ -1,6 +1,6 @@
 {
   "name": "geo_ip",
-  "version": "2.0",
+  "version": "2.0.1",
   "description": {
     "en": "GeoIP",
     "ru": "GeoIP",
@@ -8,14 +8,13 @@
   },
   "url": "https://github.com/pytsite/plugin-geo_ip",
   "author": {
-    "name": "Alexander Shepetko",
+    "name": "Oleksandr Shepetko",
     "email": "a@shepetko.com",
     "url": "https://shepetko.com"
   },
   "requires": {
     "packages": [
-      "requests"
-    ],
-    "plugins": []
+      "requests==2.*"
+    ]
   }
 }

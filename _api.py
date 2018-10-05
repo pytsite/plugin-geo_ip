@@ -1,6 +1,6 @@
 """PytSite Geo IP API Functions
 """
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
@@ -9,7 +9,7 @@ import re as _re
 from pytsite import cache as _cache
 from . import _error, _model
 
-_private_ip_re = _re.compile('(127\.|10\.|172\.(16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32)|192\.168\.)')
+_private_ip_re = _re.compile('(127\.|10\.|172\.(1[6-9]|2[0-9]|3[0-2])|192\.168\.)')
 _cache_pool = _cache.create_pool('geo_ip')
 
 # external_api_field: our_field
