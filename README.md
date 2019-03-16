@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.0.2 (2019-03-17)
+
+Requirements fixed.
+
+
 ### 2.0.1 (2018-10-05)
 
 Cleanup.

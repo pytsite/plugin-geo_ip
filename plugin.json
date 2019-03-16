@@ -1,6 +1,6 @@
 {
   "name": "geo_ip",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": {
     "en": "GeoIP",
     "ru": "GeoIP",
@@ -13,8 +13,9 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": [
-      "requests==2.*"
-    ]
+    "pytsite": ">=8.9",
+    "packages": {
+      "requests": "^2.0"
+    }
   }
 }
